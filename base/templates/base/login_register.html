@@ -14,12 +14,12 @@
         <form class="form" method="POST" action="">
           {% csrf_token %}
           <div class="form__group form__group">
-            <label for="room_name">Username</label>
+            <label for="room_name">Email</label>
             <input
               id="username"
-              name="username"
+              name="email"
               type="text"
-              placeholder="e.g. dennis_ivy"
+              placeholder="e.g. example@email.com"
             />
           </div>
           <div class="form__group">
